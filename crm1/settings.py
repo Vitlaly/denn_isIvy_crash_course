@@ -90,18 +90,26 @@ WSGI_APPLICATION = 'crm1.wsgi.application'
 #         'PORT': '5432'
 #     }
 # }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'DenIvyBase',
-        'USER': 'postgres',
-        'PASSWORD': '728365',
-        #'HOST': 'mydatabase.ccriev0uqznc.eu-west-3.rds.amazonaws.com',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'USER':'postgres',
+        'PASSWORD':'728365',
+        'HOST':'localhost',
+        'PORT':'5432'
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'test',
+#         'USER': 'Vitaly4004',
+#         'PASSWORD': '728365Aa',
+#         'HOST': 'mydatabase.ccriev0uqznc.eu-west-3.rds.amazonaws.com',
+#         'PORT': '5432'
+#     }
+# }
 
 
 # Password validation
